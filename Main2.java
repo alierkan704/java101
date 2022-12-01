@@ -5,7 +5,7 @@ public class Main2 {
 double fiyat;
 Scanner inp = new Scanner(System.in);
         System.out.println("Lütfen ürün fiyatını giriniz:");
-        fiyat = inp.nextInt();
+        fiyat = inp.nextDouble();
         double kdvOrani1=0.18;
         double kdvOrani2=0.08;
         double kdv1 = fiyat*kdvOrani1;
