@@ -28,6 +28,7 @@ public class Main14 {
                         tutar = (distance * a) - ((distance * a) * 0.3);
                         System.out.print("Toplam tutar:" + tutar);
                     }
+                    break;
                 case 2:
                     if (age < 12) {
                         tutar = (distance * a) - ((distance * a) * 0.5);
@@ -44,6 +45,7 @@ public class Main14 {
                         double tutar2=tutar-(tutar*0.2);
                         System.out.print("Gidiş Dönüş toplam tutar:" + tutar2);
                     }
+                    break;
 
             }
         }else{
