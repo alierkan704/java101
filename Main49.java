@@ -7,11 +7,17 @@ public class Main49 {
         int counter =0;
         for (int j : list){
             if (list[i] == j){
-
-                    counter++;
+                if(j < i){
+                    break;
+                }
+                counter++;
                 }
             }
-            System.out.println(list[i] + " sayısı dizide " + counter + " kadar tekrar ediyor ");
+            if(counter > 0){
+                //System.out.println(arr[i]+" sayisi "+ count + " kere yazilmistir.");
+                System.out.printf("%d sayisi %d kere yazilmistir.\n", list[i], counter);
+                counter = 0;
+            }
         }
      }
     }
