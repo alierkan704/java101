@@ -9,7 +9,6 @@ public class Main50 {
     int i=0;
     int number= (int) (Math.random()*100);
     Scanner inp= new Scanner(System.in);
-    System.out.println(number);
     for(int right=1; right<=5; right++) {
         System.out.println("1 ile 100 arasında bir sayı giriniz:");
         int guess = inp.nextInt();
